@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title Class="LOGO">WORLD DISCOVER</title>  
+    <script> 
+        function add(){
+            document.getElementById("f1").value=;
+            document.getElementById("f1").innerHTML=;
+            document.write(var);
+        }
+        function clr(){
+            document.getElementById("f1").value="";  
+            document.getElementById("f2").value=""; 
+            document.getElementById("f3").value=""; 
+            document.getElementById("f4").value=""; 
+            document.getElementById("f5").value=""; 
+            document.getElementById("f6").value=""; 
+            document.getElementById("f7").value=""; 
+            document.getElementById("f8").value=""; 
+            document.getElementById("f1").focus();
+        } 
+        function Ald(){
+            alert("server busy")
+        }
+    </script>
+    <style>
+        body{
+            background-color: #ffa500;
+        }
+        .reg{ 
+            margin-top: 100px;
+            height: 48g 0px; 
+            width: 370px;  
+            border-color: black;
+            background-color: rgb(132, 143, 166,0.2); 
+            color: white;
+        }
+        #f1{  
+            margin-left: 65px;
+        } 
+        #f2{
+            margin-left: 65px;
+        } 
+        #f3{
+            margin-left: 55px;
+        }
+        #f4{
+            margin-left: 80px;
+        }
+        #f5{
+            margin-left: 55px;
+        }
+        #f6{
+            margin-left: 75px;
+        }
+        #f7{
+            margin-left: 60px;
+        }
+        #f8{
+            margin-left: 10px; 
+        }
+        /*input:required{
+            border: 4px dashed blue */
+        } 
+        button:hover{
+                    cursor: pointer;
+                    background-color: black;
+                    color: aqua;
+        }
+        
+    </style>
+</head>
+<body>  
+    <center>
+    <div class="reg"> 
+    <label id="dj"><h2>New Member Log-In</h2></label>
+    Full Name: <input id="f1" type="text" placeholder="Enter your full name" required><br><br>
+    E-mail Id: <input id="f2" type="email" placeholder="Enter Email-id " required><br><br> 
+    Mobile No: <input id="f3" type="number" placeholder="Enter Mobile no." required><br><br>
+    Adress:    <input id="f4" type="text" placeholder="Enter Adress"><br><br>
+    Natioinality: <input id="f5" type="country" placeholder="Enter Nationality"><br><br> 
+    <hr>
+    User Id:   <input id="f6" type="no" placeholder="creat your user-id" required><br><br>
+    Password:  <input id="f7" type="password" placeholder="Creat Password" required><br><br> 
+    Confirm Password:<input id="f8" type="password" placeholder="Enter password again" required><br><br> 
+    <input type="checkbox"> I agree the terms and privacy policy of the agency <br><br>
+    <button type="submit" onclick="add()">Sign up</button>
+    <button onclick="clr()">Cancel</button> 
+    <button onclick="Ald()">Already Registered</button> 
+    </div>
+    </center>
+</body>
+</html>
